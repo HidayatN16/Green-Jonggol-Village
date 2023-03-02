@@ -12,6 +12,12 @@ class Admin_Controller extends BaseController
 
     public function index()
     {
-        return view('Admin/index');
+        $model = new Admin_Model();
+        $data['berkas'] = $model->ambil_berkas();
+        return view('Admin/index', $data);
+    }
+
+    public function create_account(){
+        return view('');
     }
 }

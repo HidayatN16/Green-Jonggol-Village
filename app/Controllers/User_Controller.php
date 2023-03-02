@@ -53,6 +53,7 @@ class User_Controller extends BaseController
 
         $model = new User_Model();
         $model->submit_id($data, $id);
+        $model->add_field_berkas($id);
 
         return redirect()->to(base_url() . 'index.php/User_Controller/index');
     }

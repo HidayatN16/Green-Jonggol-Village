@@ -20,4 +20,8 @@ class User_Model extends Model{
     public function submit_berkas($data,$id){
         return $this->db->table('berkas')->update($data,$id);
     }
+
+    public function add_field_berkas($data){
+        return $this->db->table('berkas')->insert($data);
+    }
 }
