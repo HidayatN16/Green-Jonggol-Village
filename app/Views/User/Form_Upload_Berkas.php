@@ -37,91 +37,91 @@
         <div>
             <label for="">KTP Suami</label>
             <input type="file" name="ktpsuami" id="ktpsuami" onchange="uploadktpsuami()">
-            <img src="#" alt="KTP Suami" id="a1">
+            <img src="#" alt="" id="a1">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">KTP Istri</label>
             <input type="file" name="ktpistri" id="ktpistri" onchange="uploadktpistri()">
-            <img src="#" alt="KTP Suami" id="a2">
+            <img src="#" alt="" id="a2">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">NPWP</label>
             <input type="file" name="npwp" id="npwp" onchange="uploadnpwp()">
-            <img src="#" alt="KTP Suami" id="a3">
+            <img src="#" alt="" id="a3">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">BPJS</label>
             <input type="file" name="bpjs" id="bpjs" onchange="uploadbpjs()">
-            <img src="#" alt="KTP Suami" id="a4">
+            <img src="#" alt="" id="a4">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">KK</label>
             <input type="file" name="kk" id="kk" onchange="uploadkk()">
-            <img src="#" alt="KTP Suami" id="a5">
+            <img src="#" alt="" id="a5">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Buku Nikah</label>
             <input type="file" name="nikah" id="nikah" onchange="uploadnikah()">
-            <img src="#" alt="KTP Suami" id="a6">
+            <img src="#" alt="" id="a6">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Domisili</label>
             <input type="file" name="domisili" id="domisili" onchange="uploaddomisili()">
-            <img src="#" alt="KTP Suami" id="a7">
+            <img src="#" alt="" id="a7">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Surat Keterangan Tidak Memiliki Rumah</label>
             <input type="file" name="sknonrumah" id="sknonrumah" onchange="uploadsknonrumah()">
-            <img src="#" alt="KTP Suami" id="a8">
+            <img src="#" alt="" id="a8">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Surat Keterangan Istri Tidak Bekerja</label>
             <input type="file" name="skistrinonkerja" id="skistrinonkerja" onchange="uploadskistrinonkerja()">
-            <img src="#" alt="KTP Suami" id="a9">
+            <img src="#" alt="" id="a9">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Surat Keterangan Kerja</label>
             <input type="file" name="skkerja" id="skkerja" onchange="uploadskkerja()">
-            <img src="#" alt="KTP Suami" id="a10">
+            <img src="#" alt="" id="a10">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Slip Gaji</label>
             <input type="file" name="slip" id="slip" onchange="uploadslip()">
-            <img src="#" alt="KTP Suami" id="a11">
+            <img src="#" alt="" id="a11">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">Rekening Koran</label>
             <input type="file" name="rekkoran" id="rekkoran" onchange="uploadrekkoran()">
-            <img src="#" alt="KTP Suami" id="a12">
+            <img src="#" alt="" id="a12">
         </div>
     </form>
     <form action="" enctype="multipart/form-data" method="post">
         <div>
             <label for="">PPH</label>
             <input type="file" name="pph" id="pph" onchange="uploadpph()">
-            <img src="#" alt="KTP Suami" id="a13">
+            <img src="#" alt="" id="a13">
         </div>
     </form>
     <script>

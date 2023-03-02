@@ -28,7 +28,7 @@ class Email extends BaseConfig
     /**
      * SMTP Server Address
      */
-    public string $SMTPHost = 'ssl://mail.greenjonggolviilage.com';
+    public string $SMTPHost = 'mail.greenjonggolviilage.com';
 
     /**
      * SMTP Username
@@ -38,12 +38,12 @@ class Email extends BaseConfig
     /**
      * SMTP Password
      */
-    public string $SMTPPass = '*k5-w8v{I5w4';
+    public string $SMTPPass = 'Fin2Az!zzj-hgG8';
 
     /**
      * SMTP Port
      */
-    public int $SMTPPort = 465;
+    public int $SMTPPort = 587;
 
     /**
      * SMTP Timeout (in seconds)

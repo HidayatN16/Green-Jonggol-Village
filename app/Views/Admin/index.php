@@ -11,7 +11,11 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css">
 
 <body>
-    <a href="<?php echo base_url() . 'index.php/Login/logout' ?>">Logout</a>
+    <div>
+        <a href="<?php echo base_url() . 'index.php/Login/logout' ?>">Logout</a>
+        <a href="<?= base_url() . 'index.php/Admin_Controller/list_account' ?>">List Akun</a>
+    </div>
+
     <div class="table-responsive">
         <table id="example" class="table table-striped">
             <thead>

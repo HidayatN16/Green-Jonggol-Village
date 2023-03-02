@@ -38,7 +38,34 @@ class Login extends BaseController
             echo 'Error Login';
         }
     }
-    public function logout(){
+
+    public function v_forgot()
+    {
+        return view('Login/lupa_password');
+    }
+
+    public function forgot()
+    {
+        $a = $this->request->getPost('email');
+        $model = new Login_Model();
+        $row = $model->find_email(['email' => $a])->getRow();
+
+        $email = \Config\Services::email();
+        $email->setFrom('support@greenjonggolviilage.com', 'Support');
+        $email->setTo($a);
+
+        $email->setSubject('Your Detail Account');
+        $email->setMessage('Username : ' . $row->username . '\n Password :' . $row->password);
+
+        if ($email->send()) {
+            echo 'Sukses';
+        } else {
+            echo 'Gagal';
+        }
+    }
+
+    public function logout()
+    {
         $this->session->destroy();
         return redirect()->to(base_url() . 'index.php/Home/login');
     }
