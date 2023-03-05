@@ -58,6 +58,13 @@ class User_Controller extends BaseController
         return redirect()->to(base_url() . 'index.php/User_Controller/index');
     }
 
+    public function v_update_id($id){
+        $kd = $this->session->get('iduser');
+        $model = new User_Model();
+        $detail['user'] = $model->user_detail(['id_user' => $kd]);
+        return view('User/Ubah_Data_Diri', $detail);
+    }
+
     public function submit_ktpsuami()
     {
         $kd = $this->session->get('iduser');

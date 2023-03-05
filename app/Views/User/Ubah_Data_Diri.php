@@ -7,7 +7,23 @@
     <title>Update Data Diri</title>
 </head>
 <body>
-    <form action="">
+<form action="<?= base_url().'index.php/User_Controller/update_id' ?>" method="post">
+        <?php  foreach ($user as $data) { ?>
+        <div>
+            <label for="">Nama Lengkap</label>
+            <input type="text" name="nama" value="<?= $data->nama_lengkap ?>" required>
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="text" name="email" value="<?= $data->email ?>" required>
+        </div>
+        <div>
+            <label for="">No Hp</label>
+            <input type="text" name="nohp" value="<?= $data->nohp ?>" required>
+        </div>
+        <?php } ?>
+        <button type="submit">Submit</button>
+    </form><form action="">
         <label for=""></label>
     </form>
 </body>
